@@ -36,8 +36,8 @@ class BossTimerItem extends React.Component {
           <div className="caption">
             <div>{this.props.data.name}</div>
             <div>剩余<input className="input-ctrl" maxLength="3" size="5" type="number" value={this.state.refreshTime} onChange={this.handleChange} />分钟</div>
-            <div>击杀时间：{this.state.killTime} 分钟</div>
-            <div>刷新时间：{this.state.resetTime} 分钟</div>
+            <div>击杀时间：{this.state.killTime}</div>
+            <div>刷新时间：{this.state.resetTime}</div>
             <div><button onClick={this.handleClick} className="btn btn-primary btn-block btn-xs"> 计时</button></div>
           </div>
         </div>
